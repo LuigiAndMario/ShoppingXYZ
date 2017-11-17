@@ -201,13 +201,16 @@
 				
 				Upon performing a legal operation on an element in any list, the node responsible
 				of this manipulation will immediately notify all other nodes of this manipulation.
-			\item[Project design:] The user interface will be similar to the following:
+				
+			\item[UI design:] The user interface will be similar to the following:
 			
 				\begin{figure}[h]
 					\centering
    					\includegraphics[width=\columnwidth]{UI.png}
 					\caption{UI sketch}
 				\end{figure}
+				
+			\item[Communication design:]
 				
 				The protocol to join a network is as follows:
 				
@@ -251,6 +254,7 @@
 				therefore repeated for all the disconnected nodes when they reconnect in a way that will
 				save the existing data.
 				
+			\item[Application design:]
 				When a node A tries to apply a modification with a parameter to an item of a list,
 				it simply broadcasts the following message:
 				\begin{figure}[h!]
